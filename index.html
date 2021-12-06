@@ -1,11 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="ru">
-
 <head>
     <meta charset="utf-8">
     <title>Кваст</title>
 </head>
-
 <body>
     <div class="page-header">
         <div class="page-top">
@@ -52,6 +50,7 @@
                 <b>150 Р.</b>
             </div>
         </div>
+
         <div class="new-card">
             <h3>Романтик</h3>
             <table>
@@ -78,6 +77,7 @@
             </div>
         </div>
     </div>
+    
     <section class="features">
         <ul>
             <li class="features-item">
@@ -123,7 +123,8 @@
         </blockquote>
     </section>
 
-    <h2>Ассортимент</h2>
+    <div>
+        <h2>Ассортимент</h2>
     <table class="assortment">
         <tr>
             <th>Название</th>
@@ -161,34 +162,75 @@
             <td>90 Р.</td>
         </tr>
     </table>
+    </div>
 
+    <div class="form">
+        <h2>Заказать</h2>
+        <p class="pr">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
+        <form action="#" method="post">
+            <div class="form-field">
+                <label for="name">Представьтесь:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-field">
+                <label for="phone">Номер телефона:</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="form-field">
+               <label for="dop-phone">Доп. номер:</label> 
+               <input type="text" name="dop-phone" id="dop-phone">
+            </div>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="form-field">
+                <label for="count">Объём заказа:</label><br>
+                <select name="count" id="count">
+                    <option value="5-10">От 5 до 10 баррелей в неделю</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="comment">Доп. комментарий:</label>
+                <textarea name="comment" id="comment" cols="20" rows="2"></textarea>
+            </div>
+            <div class="checkbox-area">
+                <label >
+                    <input type="checkbox" checked>
+                    Я согласен получать квасную рассылку
+                </label>
+            </div>
+            <input type="submit" value="Отправить заказ">
+        </form>
+    </div>
 
-
-    <!-- <div class="page-footer">
+    <div class="page-footer">
         <div class="footer-top">
             <div class="footer-logo">
                 <img src="img/logo.png" alt="Логотип">
-            </div><br>
-
-            <div class="footer-menu">
-                <li><a href="#">История</a></li>
-                <li><a href="#">Производство</a></li>
-                <li><a href="#">Ассортимент</a></li>
-                <li><a href="#">Где купить</a></li>
             </div>
-        </div><br>
+
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="#">История</a></li>
+                    <li><a href="#">Производство</a></li>
+                    <li><a href="#">Ассортимент</a></li>
+                    <li><a href="#">Где купить</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="footer-bottom">
             <div class="footer-social">
                 <a href="#">Инстаграм</a>
                 <a href="#">Фейсбук</a>
                 <a href="#">Вконтакте</a>
             </div>
-        </div><br>
-        <div class="require">При перепечатке материалов ссылка на сайт обязательна!</div><br>
-        <div class="development">
-            <img src="img/htmlacademy.png" alt="HTML Academy"> Разработчик: <a href="#">HTML Academy</a>
         </div>
-    </div> -->
+        <p class="require">При перепечатке материалов ссылка на сайт обязательна!</p>
+        <div class="development">
+            <img src="img/htmlacademy.png" alt="HTML Academy"><b>Разработчик:</b> <a href="#">HTML Academy</a>
+        </div>
+    </div>
 </body>
 
 </html>
